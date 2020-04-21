@@ -1,16 +1,13 @@
-package com.atguigu.springcloud.dao;
+package com.atguigu.springcloud.service;
 
 import com.atguigu.springcloud.entities.Payment;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
  * @Author : fhr
- * @Date : 2020/4/17
+ * @Date : 2020/4/20
  */
-@Mapper
-public interface PaymentDao {
-
+public interface PaymentService {
     public int create(Payment payment);
 
     public Payment getPaymentById(@Param("id") Long id);

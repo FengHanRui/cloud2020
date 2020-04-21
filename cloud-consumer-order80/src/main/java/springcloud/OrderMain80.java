@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date : 2020/4/17
  */
 @SpringBootApplication
-public class PaymentMain80{
+public class OrderMain80{
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain80.class, args);
+        SpringApplication.run(OrderMain80.class, args);
     }
 
 }
